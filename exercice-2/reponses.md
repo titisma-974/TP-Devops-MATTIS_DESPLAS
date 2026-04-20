@@ -16,7 +16,3 @@ EXERCICE 2 :
 On peut voir que deux layers ont été ajouté mais seul de layeur de COPY index.html "pèse" quelque chose
 2.7 Les étapes "CREATED" il y a 4 jours sont des étapes liées au cache, celles qui datent d'il y a 58 secondes sont des étapes réexécutées.
 2.8 Commande utilisé pour supprimer mon-site:V1 --> docker rmi mon-site:v1
-
-EXERCIE 3 :
-
-3.1 le fichier n'existe plus car les conteneurs sont éphémères, tout ce qui est créer avec le conteneur sera supprimé en même temps que le conteneur, avec l'option --rm tout a été supprimé. Chaque nouveau conteneur sera comme "neuf".
